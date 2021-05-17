@@ -1,0 +1,30 @@
+     1. The need for automating repetitive work (reducing errors, improving efficiency)
+        - IT opratinons
+     	- Provisioning
+     	- Configuration Management
+     	- Continuous delivery
+     	- Application deployment
+     	- Security compliance
+     	
+        
+     
+     2. Ansible: an open source software provisioning /configuration automation tool
+     
+        Why it is different?
+          - No custom PKI . SSH-based
+          - Agentless Architecture (as in Cheff and puppet)
+          - Configuration as data not Code
+          - Full Configuration management orchestarion and deployment
+          
+     3. How Ansible work (philosophy and its building blocks)
+           - include the image and description from edureka
+           
+     4. Typical Ansible Use-cases (two simple but non-trivial examples)
+           - setting up lab env
+		   - install examples from slide
+		             
+     5. Your first Ansible playbook (example to familiarise the structure and content of a playbook)
+     6. More commands (cover essential command and functions here)
+     7. Advanced topics (cover 3-4 functions/commands here)
+     8. Where to look for more documentation (provide info on/links to documentation) 
+     9. Conclusion (recap)
