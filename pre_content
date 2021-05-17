@@ -1,0 +1,44 @@
+* Ini file 
+
+- Contains configuration information in a simple, predefined format.
+- It is used by Windows OSs and Windows-based apps to store information about the user's preferences and operating environment. 
+- These files are plain text files with a basic structure comprised of properties and sections
+- eg
+  
+   [webservers]
+	foo.example.com
+	bar.example.com
+	
+	
+	
+* YAML
+  - Yet Another Markup Language ,human friendly data serialization standard
+  - Human Readable &Machine Readable
+  - Can be called as a Superset of json (every json is parsable as yaml)
+  - Closer to natural language
+  - Self Documented Code
+  
+    eg: 
+     ---
+	 some_key:
+       some_other_key: some_val
+     some_list:
+       - item1
+       - item2
+       
+       
+      python dictionary equivalent
+         {'some_key': {'some_other_key': 'some_val'},'somelist':['item1','item2']}
+       
+      python dictionary equivalent
+         {"some_key": {"some_other_key": "some_val"},"somelist":["item1","item2"]}
+       
+       
+      syntax 
+        + start of file ---
+        + comments  #
+        + list - item or [item]
+        + maps key:value or {key:value} 
+        + > line folding 
+        more at https://learnxinyminutes.com/docs/yaml/
+        
