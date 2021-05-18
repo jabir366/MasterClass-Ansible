@@ -23,11 +23,11 @@ https://docs.ansible.com/ansible/latest/installation_guide/intro_installation.ht
    - To copy public-key of ansible machine to other hosts ,use `ssh-copy-id`
    - In each VM , you need to allow the user to not prompt password while issuing command with sudo, for that type command `visudo` in terminal and edit the line containing 
       ```
-	%sudo   ALL(ALL:ALL) ALL
+	  %sudo   ALL(ALL:ALL) ALL
       ```
       to
       ```
-        %sudo   ALL(ALL) NOPASSWD:ALL
+      %sudo   ALL(ALL) NOPASSWD:ALL
       ```
 ## Configuring ansible 
   - If ansible is installed from pip use this command to dowload the default ansble.cfg

@@ -10,6 +10,32 @@
      
      2. Ansible: an open source software provisioning /configuration automation tool
      
+          Features 
+            - Simplicity
+                - Learn
+                - Setup
+                - Extend modules in any language
+            - Batteries included
+               - In the form of modules,how Ansible manages infrastructure 2k+ modules available
+               -  provision cloud components using modules
+               - Monitoring tools, source control , Network, collaboration tools
+               - 2 categories  core(by ansible) and extra(by community)
+            - Infrastructure as Code
+               - Represent a system's final state as yaml
+            - Code vs Data
+               - It separates codes from data
+               - Code is generic, by using templates , add data separate using variables
+            - Idempotence
+               - property of an operation in maths and CS, that can be done multiple time without changing the result beyond the initial application
+               - different ways to achieve desired state based on situations
+                  user
+                    name=xyz
+                    uid=5001
+                    pass=pqr
+                    
+                  useradd, or usermod or passwd or nothing to achieve tha above state  
+                   
+        
         Why it is different?
           - No custom PKI . SSH-based
           - Agentless Architecture (as in Cheff and puppet)
