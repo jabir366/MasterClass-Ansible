@@ -1,0 +1,19 @@
+---
+- hosts: all
+  become: true
+  tasks:
+      - name: add chache dir
+        file: 
+          path: /opt/cache
+          state: directory
+      - name: install nginx
+        apt:
+            name: nginx
+            state: latest
+        notify: restart nginx
+  handlers:
+      - name: restart nginx
+        service: 
+            name: nginx
+            state: restarted
+

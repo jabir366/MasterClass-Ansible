@@ -1,0 +1,5 @@
+hosts:
+- blah1
+- blah2
+remote_user: vagrant
+sudo: 'yes'

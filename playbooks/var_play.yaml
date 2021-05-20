@@ -1,0 +1,13 @@
+---
+- hosts: all
+  tasks:
+      - name: create a test file
+        file:
+            path: /tmp/testfile
+            state: touch
+        register: file_var
+      - name: Print debug message
+        debug:
+            msg: debug message is {{ file_var }}
+    
+
